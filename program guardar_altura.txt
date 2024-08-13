@@ -1,0 +1,64 @@
+1
+
+program guardar_altura
+start
+//programa que solisita al usuario su altura
+Declare float altura
+Display "ingrese su altura:"
+input altura
+end
+
+
+2
+//diceñe un alguritmo que pida al usuario ingresar su color favorito y almacene la entrada del usuario en una variable llamada "color"
+
+
+program color_favorito
+start
+//programa que solisita al usuario su color favorito
+Declare estring color
+display "ingrese su color favorito:"
+input color
+end
+
+
+set = asignar/colocar
+
+3
+
+set b = a + 2
+set a = b * 4
+set b = a / 3.14
+set a = b - 8
+
+
+
+
+4
+
+start
+declare integer resultado
+declare integer w = 5
+declare integer x = 4
+declare integer y = 8
+declare integer z = 2
+
+set resultado = x + y // 12
+set resultado = z * 2 // 4
+set resultado = y / x //
+set resultado = y - z // 6
+
+
+5
+declare float costo
+
+
+6
+declare integrer total = 0
+
+
+
+
+
+
+
