@@ -1,0 +1,50 @@
+//EJERCICIO #8. Propina, Impuesto y Total
+//Diseña un programa que calcule la cantidad total de una comida comprada en un restaurante. El 
+//programa debe pedir al usuario que ingrese el costo de la comida, y luego calcular la cantidad de una 
+//propina del 15% y un impuesto de venta del 7%. Muestra cada una de estas cantidades y el total.
+
+//ALGORITMO: ALGORITMO PARA CALCULAR EL PRECIO O CANTIDAD TOTAL DE UNA COMIDA COMPRADA EN UN RESTAURANTE APLICANDOLE IMPUESTO Y PROPINA
+
+// 1- INICIAR
+// 2- DECLARAR LAS VARIABLES: costo_inicial, propina, impuesto, costo_total 
+// 3- OBTENCION DE DATOS: Pedir al usuario que ingrese el costo de la comida
+// 4- CALCULOS:Calcular la cantidad de una propina del 15% (USAMOS 0.15 PARA REPRESENTAR ESTE PORCENTAJE), 
+//    un impuesto de venta del 7% (USAMOS 0.07 PARA REPRESENTAR ESTE PORCENTAJE) 
+//    y el total sumando (costo_inicial + propina + impuesto)
+// 5- MOSTRAR RESULTADOS: mostrar el costo inicial de la comida, cuanto es la propina del 15%, el impuesto del 7% y el total 
+// 6- FINALIZAR
+
+
+// PSEUDOCODIGO
+program CALCULAR_EL PRECIO_TOTAL
+
+start
+//PROGRAMA_PARA_CALCULAR_EL PRECIO_TOTAL_DE_UNA_COMIDA_APLICANDOLE_IMPUESTO_Y_PROPINA
+
+//DECLARACION DE VARIABLES 
+Declare float costo_inicial
+Declare float propina
+Declare float impuesto
+Declare float costo_total
+
+//OBTENCION DE DATOS
+Display "ingrese el costo de la comida"
+set costo_inicial
+
+//se calcula la propina,el impuesto y el total
+set propina = costo_inicial * 0.15
+set impuesto = costo_inicial * 0.07
+set costo_total = costo_inicial + propina + impuesto
+
+//SE MUESTRAN LOS RESULTADOS
+Display "el costo inicial de la comida es: $", costo_inicial
+Display "el impuesto es: $ ", impuesto
+Display "la propina es: $", propina
+Display "el total es: $", costo_total
+
+end
+
+
+end
+
+
