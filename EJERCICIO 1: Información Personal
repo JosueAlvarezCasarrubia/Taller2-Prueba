@@ -1,56 +1,50 @@
-Resuelva los siguientes problemas utilizando algoritmo, pseudocódigo y diagrama de flujo.
+//Resuelva los siguientes problemas utilizando algoritmo, pseudocódigo y diagrama de flujo.
 
+//1. Información Personal
 
-1. Información Personal
+//Diseña un programa que muestre la siguiente información:
 
-Diseña un programa que muestre la siguiente información:
+//• Tu nombre
+//• Tu dirección, con ciudad, estado y código postal
+//• Tu número de teléfono
+//• Tu especialización universitaria
 
-• Tu nombre
-• Tu dirección, con ciudad, estado y código postal
-• Tu número de teléfono
-• Tu especialización universitaria
+//SOLUCION:
 
+//ALGORITMO: Algoritmo para mostrar información personal:
 
-SOLUCION:
+//1- iniciar
+//2- Declarar las variables para el nombre, dirección, teléfono y especialización.
+//3- Asignar valores a las variables con la información correspondiente.
+//4- Mostrar la información personal.
+//5- Finalizar
 
-ALGORITMO: Algoritmo para mostrar información personal:
+//PSEUDOCODIGO:
 
-
-    1- iniciar
-    2- Declarar las variables para el nombre, dirección, teléfono y especialización.
-    3- Asignar valores a las variables con la información correspondiente.
-    4- Mostrar la información personal.
-    5- Finalizar
-
-
-PSEUDOCODIGO:
-
-    Program mostrar_Informacion_Personal
+Program mostrar_Informacion_Personal
 Start
 // Programa para mostrar información personal
 
-
 // Declaración de variables:
-    Declare String nombre
-    Declare String direccion
-    Declare String telefono
-    Declare String especializacion
-
+Declare String nombre
+Declare String direccion
+Declare String telefono
+Declare String especializacion
 
 // Asignación de valores
-    Display "ingrese su sombre"
-    Set nombre = "Tu Nombre"
-    Display "ingrese su Dirección, Ciudad, Estado, Código Postal"
-    Set direccion = "Tu Dirección, Ciudad, Estado, Código Postal"
-    Display "ingrese su Número de Teléfono"
-    Set telefono = "Tu Número de Teléfono"
-    Display "ingres su Especialización Universitaria"
-    Set especializacion = "Tu Especialización Universitaria"
+Display "ingrese su sombre"
+Set nombre = "Tu Nombre"
+Display "ingrese su Dirección, Ciudad, Estado, Código Postal"
+Set direccion = "Tu Dirección, Ciudad, Estado, Código Postal"
+Display "ingrese su Número de Teléfono"
+Set telefono = "Tu Número de Teléfono"
+Display "ingres su Especialización Universitaria"
+Set especializacion = "Tu Especialización Universitaria"
 
 // Presentación de la información personal
-    Display "Nombre: ", nombre
-    Display "Dirección: ", direccion
-    Display "Teléfono: ", telefono
-    Display "Especialización: ", especializacion
+Display "Nombre: ", nombre
+Display "Dirección: ", direccion
+Display "Teléfono: ", telefono
+Display "Especialización: ", especializacion
 
 End
