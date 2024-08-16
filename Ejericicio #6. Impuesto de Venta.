@@ -1,0 +1,51 @@
+6. Impuesto de Venta 
+Diseña un programa que pida al usuario ingresar la cantidad de una compra. El programa debe luego 
+calcular el impuesto de venta estatal y el impuesto de venta del condado. Asume que el impuesto de 
+venta estatal es del 4% y el impuesto de venta del condado es del 2%. El programa debe mostrar la 
+cantidad de la compra, el impuesto de venta estatal, el impuesto de venta del condado, el impuesto 
+de venta total y el total de la venta (que es la suma de la cantidad de la compra más el impuesto de 
+venta total). 
+Pista: Usa el valor 0.02 para representar el 2% y 0.04 para representar el 4%. 
+
+
+ALGORITMO: 
+Algoritmo para calcular_el_impuesto_de_venta_estatal_y_del_condado
+1.Iniciar
+2.Solicitar al usuario ingresar la cantidad de la compra
+3.Calcular el impuesto de venta estatal (4% de la cantidad de la compra)
+4.Calcular el impuesto de venta del condado (2% de la cantidad de la compra)
+5.Calcular el impuesto de venta total (suma del impuesto estatal y del condado)
+6.Calcular el total de la venta (suma de la cantidad de la compra y el impuesto de venta total)
+7.Mostrar la cantidad de la compra, el impuesto de venta estatal, el impuesto de venta del condado, el impuesto de venta total y el total de la venta
+8.Finalizar
+
+PSEUDOCODIGO: 
+Program calcularImpuestoVenta
+Start
+// Programa para calcular el impuesto de venta estatal y del condado
+
+// Declaración de variables
+Declare Float cantidadCompra
+Declare Float impuestoEstatal
+Declare Float impuestoCondado
+Declare Float impuestoTotal
+Declare Float totalVenta
+
+// Obtención de datos
+Display "Ingrese la cantidad de la compra: "
+Input cantidadCompra
+
+// Cálculo de los impuestos
+Set impuestoEstatal = cantidadCompra * 0.04
+Set impuestoCondado = cantidadCompra * 0.02
+Set impuestoTotal = impuestoEstatal + impuestoCondado
+Set totalVenta = cantidadCompra + impuestoTotal
+
+// Presentación de resultados
+Display "Cantidad de la compra: ", cantidadCompra
+Display "Impuesto de venta estatal: ", impuestoEstatal
+Display "Impuesto de venta del condado: ", impuestoCondado
+Display "Impuesto de venta total: ", impuestoTotal
+Display "Total de la venta: ", totalVenta
+
+End
