@@ -1,0 +1,33 @@
+//EJERCICIO #11 Conversión de pulgadas a centímetros
+//Diseña un programa que convierta pulgadas a centímetros. El programa debe pedir al usuario que ingrese una longitud en pulgadas y luego convertirla a centímetros usando la relación: 1 pulgada= 2.54 cm
+
+algoritmo:
+
+1- iniciar
+2- declarar las variables pulgadas y centímetros 
+3- pedir al usuario que ingrese la longitud en pulgadas
+4- convertir de pulgadas a centímetros con (pulgadas * 2.54)
+5- mostrar resultados
+6- finalizar
+
+pseudocodigo:
+program convertir_de_pulgadas_a_centímetro
+
+start
+//este programa sirve para convertir de pulgadas a centímetro usando la relación: 1 pulgada= 2.54 cm
+
+//declaración de variables 
+Declare  float pulgadas
+Declare float centímetros
+
+//obtención de datos
+Display "ingrese una longitud en pulgadas"
+input pulgadas
+
+//calculo de conversión de pulgadas a centímetros
+set centímetros = pulgadas * 2.54
+
+//se muestra el resultado
+Display "la longitud en centímetros es:", centímetros
+
+end
