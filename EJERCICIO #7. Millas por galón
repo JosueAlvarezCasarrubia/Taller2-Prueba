@@ -1,0 +1,37 @@
+7. Millas por Galón 
+Las millas por galón (MPG) de un automóvil se pueden calcular con la siguiente fórmula: 
+MPG = Millas recorridas / Galones de gasolina usados 
+Diseña un programa que pida al usuario el número de millas recorridas y los galones de gasolina 
+usados. Debe calcular las millas por galón del automóvil y mostrar el resultado en pantalla.
+
+
+ALGORITMO: 
+1. Iniciar 
+2. Solicitar al usuario ingresar las millas recorridas 
+3. Solicitar al usuario ingresar los galones de gasolina usados
+4. Calcular las millas por galón (MPG) usando la fórmula: MPG = Millas recorridas / Galones usados
+5. Mostrar el resultado del cálculo (MPG)
+6. Finalizar
+
+
+PSEUDOCODIGO: 
+Program calcularMPG
+Start
+// Programa para calcular las millas por galón (MPG) de un automóvil
+
+// Declaración de variables
+Declare Float millasRecorridas
+Declare Float galonesUsados
+Declare Float MPG
+
+// Obtención de datos
+Display "Ingrese las millas recorridas: "
+Input millasRecorridas
+Display "Ingrese los galones de gasolina usados: "
+Input galonesUsados
+
+// Cálculo de las millas por galón
+Set = millasRecorridas / galonesUsados
+
+End
+
