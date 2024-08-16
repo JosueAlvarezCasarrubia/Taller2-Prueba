@@ -1,4 +1,4 @@
-//EJERCICIO #11 Conversión de pulgadas a centímetros
+//AUTO EJERCICIO #1 Conversión de pulgadas a centímetros
 //Diseña un programa que convierta pulgadas a centímetros. El programa debe pedir al usuario que ingrese una longitud en pulgadas y luego convertirla a centímetros usando la relación: 1 pulgada= 2.54 cm
 
 algoritmo:
