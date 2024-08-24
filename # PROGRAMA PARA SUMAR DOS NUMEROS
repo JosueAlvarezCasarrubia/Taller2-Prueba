@@ -1,0 +1,12 @@
+# PROGRAMA PARA SUMAR DOS NUMEROS
+#LOS IMPUTS (SE SUGIERE QUE ESTEN AL FINAL DEL CODIGO y hacer variables de prueba para no gastar tanto tiempo)
+
+#forma1:
+a = input("ingere el primer numero")
+b = input("ingrese el segundo numero")
+print(float(a) + float(b))
+
+#forma 2
+a = float(input("ingere el primer numero"))
+b = float(input("ingrese el segundo numero"))
+print(a + b)
