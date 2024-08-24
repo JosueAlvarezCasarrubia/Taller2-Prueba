@@ -1,11 +1,11 @@
 #programa para calcular la cantidad de los  ingredientes para hacer MUFFINS
 
 #cantidad para 1 unidad de muffns
-leche = 240/10 #mililitros
-harina = 280/10 #gramos
-levadura = 30/10 #gramos
-sal = 2.5/10 #gramos
-azucar = 100/10 # gramos
+leche = 24 #mililitros
+harina = 28 #gramos
+levadura = 3 #gramos
+sal = 0.25 #gramos
+azucar = 10 # gramos
 huevos = 2/10 #unidades
 mantequilla = 15 #gramos
 
@@ -28,3 +28,7 @@ print("la cantidad de sal que necesitas es:", sal, "g" )
 print("la cantidad de azucar que necesitas es:", azucar, "g" ) 
 print("la cantidad de huevos que necesitas es:", huevos, "u" )
 print("la cantidad de matequilla que necesitas es:", mantequilla, "g" )
+
+
+#PROXIMAMENTE:
+#CALCULAR TAMBIEN EL PRECIO DEL VALOR DE LA COMPRA DE LOS IMGREDIENTES
