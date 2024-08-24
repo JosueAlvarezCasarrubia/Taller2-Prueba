@@ -1,0 +1,30 @@
+#programa para calcular la cantidad de los  ingredientes para hacer MUFFINS
+
+#cantidad para 1 unidad de muffns
+leche = 240/10 #mililitros
+harina = 280/10 #gramos
+levadura = 30/10 #gramos
+sal = 2.5/10 #gramos
+azucar = 100/10 # gramos
+huevos = 2/10 #unidades
+mantequilla = 15 #gramos
+
+#calculos para calcular la cantidad de ingredientes de cualquier cantidad de muffins
+muffins = int(input("ingrese la cantidad de muffins que desea realizar"))
+
+#calculos
+leche = leche * muffins #mililitros
+harina = harina * muffins #gramos
+levadura = levadura * muffins #gramos
+sal = sal * muffins #gramos
+azucar = azucar * muffins # gramos
+huevos = huevos * muffins#unidades
+mantequilla = mantequilla * muffins #gramos
+
+print("la cantidad de leche que necesitas es:", leche,  "ml") 
+print("la cantidad de harina que necesitas es:", harina, "g") 
+print("la cantidad de levadura que necesitas es:", levadura, "g" ) 
+print("la cantidad de sal que necesitas es:", sal, "g" ) 
+print("la cantidad de azucar que necesitas es:", azucar, "g" ) 
+print("la cantidad de huevos que necesitas es:", huevos, "u" )
+print("la cantidad de matequilla que necesitas es:", mantequilla, "g" )
