@@ -1,0 +1,14 @@
+# Programa para calcular el área de un círculo
+# A = PI* R^2
+
+#Declaración de  constante
+PI = 3.141592
+
+#ingresar el valor del radio
+radio = float(input("Ingrese el radio del círculo: "))
+
+# Presentación de resultado
+area = PI * radio ** 2
+
+# Presentación de resultado
+print("el area del circulo con radio  ", radio, "   es   " ,area, "u2")
